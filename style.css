@@ -71,4 +71,17 @@ body {
 
 #content {
   height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-left: 40px;
+}
+
+.epi-video {
+  border-radius: 6px;
+  margin-top: 60px;
+}
+
+.video-display {
+  width: 500px;
 }
