@@ -75,6 +75,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
   margin-left: 40px;
+  flex-wrap: wrap;
 }
 
 .epi-video {
@@ -84,4 +85,14 @@ body {
 
 .video-display {
   width: 500px;
+}
+
+.epi-logo {
+  margin: 5px 2px;
+  justify-content: flex-start;
+}
+
+.elogo {
+  width: 70px;
+  padding-right: 20px;
 }
