@@ -73,18 +73,19 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
   margin-left: 40px;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 
-.epi-video {
-  border-radius: 6px;
-  margin-top: 60px;
+.sub-content {
+  display: flex;
+  align-items: center;
 }
 
 .video-display {
   width: 500px;
+  border-radius: 10px;
 }
 
 .epi-logo {
@@ -93,6 +94,15 @@ body {
 }
 
 .elogo {
-  width: 70px;
+  width: 60px;
   padding-right: 20px;
+}
+
+.text h4 {
+  margin-bottom: 3px;
+}
+
+.text p {
+  margin-top: 3px;
+  opacity: 0.7;
 }
